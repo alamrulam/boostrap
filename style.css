@@ -4,11 +4,7 @@
     background-color: #e2edff;
 }
 
-.card-img-top {
-    width: 300px;
-    height: 400px;
-    justify-content: center;
-}
+
 
 
 #projects {
@@ -17,4 +13,12 @@
 
 section {
     padding-top: 5rem;
+}
+
+.gallery-img {
+    width: 100%;
+}
+
+#gallery .row > * {
+    padding: 0;
 }
