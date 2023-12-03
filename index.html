@@ -11,6 +11,9 @@
     <!-- bootstrap icons -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" />
 
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <!-- My CSS -->
     <link rel="stylesheet" href="style.css" />
 
@@ -64,14 +67,14 @@
       <div class="container">
         <div class="row text-center mb-3">
           <div class="col">
-            <h2>Contoh Me </h2>
+            <h2>Contoh Me</h2>
           </div>
         </div>
         <div class="row justify-content-center fs-5 text-center">
-          <div class="col-md-4">
+          <div class="col-md-4" data-aos="fade-right" data-aos-duration="1000">
             <p>Alam adakah seorang anak yang males kedul yang ber cita cita ingin ke bulan dan menjelajah dunia dan kemudian balik dei weh</p>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4" data-aos="fade-left" data-aos-duration="1000" ata-aos-delay="200">
             <p>pada zaman dahulu kala tersisah kan ada seorang anak yang naon nya heeh eta we 500 tahun kemudian dia mulai dan finish</p>
           </div>
         </div>
@@ -96,40 +99,40 @@
         </div>
         <div class="row justify-content-center">
           <div class="col-md-4 mb-3">
-            <div class="card">
-              <img src="img/projects/1.jpg" class="card-img-top" alt="projects1" />
+            <div class="card" data-aos="flip-down" data-aos-duration="1000">
+              <img src="img/3.jpeg" class="card-img-top" alt="projects1" />
               <div class="card-body">
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
               </div>
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card">
-              <img src="img/projects/2.jpg" class="card-img-top" alt="projects2" />
+            <div class="card" data-aos="flip-down" data-aos-duration="1000" data-aos-delay="100">
+              <img src="img/3.jpeg" class="card-img-top" alt="projects2" />
               <div class="card-body">
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
               </div>
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card">
-              <img src="img/projects/3.jpg" class="card-img-top" alt="projects3" />
+            <div class="card" data-aos="flip-down" data-aos-duration="1000" data-aos-delay="200">
+              <img src="img/3.jpeg" class="card-img-top" alt="projects3" />
               <div class="card-body">
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
               </div>
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card">
-              <img src="img/projects/4.jpg" class="card-img-top" alt="projects4" />
+            <div class="card" data-aos="flip-down" data-aos-duration="1000" data-aos-delay="300">
+              <img src="img/3.jpeg" class="card-img-top" alt="projects4" />
               <div class="card-body">
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
               </div>
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card">
-              <img src="img/projects/5.jpg" class="card-img-top" alt="projects5" />
+            <div class="card" data-aos="flip-down" data-aos-duration="1000" data-aos-delay="400">
+              <img src="img/3.jpeg" class="card-img-top jus" alt="projects5" />
               <div class="card-body">
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
               </div>
@@ -201,6 +204,14 @@
     <!-- akhir footer -->
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        once: true,  
+        duration: 2000,
+      });
+    </script>
 
     <script>
       const scriptURL = "https://script.google.com/macros/s/AKfycbxpZBPe1LiDkQuxSgrk6i5z51Em2zdOl2mmUW-VmnldeyrYeGMSPL8oB3fmhGgkBF_Q/exec";
